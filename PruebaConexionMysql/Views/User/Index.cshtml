@@ -1,0 +1,60 @@
+﻿@model IEnumerable<LogicaNegocio.Models.UserModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Usuarios.css"/>
+    <title>USUARIOS</title>
+</head>
+
+<h1>TODOS LOS USUARIOS</h1>
+
+    <div class="container-imagen">
+        <img src="/css/images/USUARIOS.png" class="imagen"/>
+    </div>
+        
+<table class="tablita">
+    <thead>
+        <tr class="encabezado">
+            <th>
+                @Html.DisplayNameFor(model => model.NOMBRE_USUARIO)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.CONTRASENA)
+            </th>
+        
+            <th>
+                @Html.DisplayNameFor(model => model.ROL)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>        
+            <td>
+                @Html.DisplayFor(modelItem => item.NOMBRE_USUARIO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CONTRASENA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ROL)
+            </td>
+            <td class="botonesOpciones">
+              <a class="cajaEditar" asp-action="Actualizar" asp-controller="User" asp-route-nombreUser="@item.NOMBRE_USUARIO"> <button class="botonEditar"> Editar </button></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+        <footer class="fin">
+            <a class="cajaAnadir" asp-action="Guardar"><button class="botonAnadir">AÑADIR</button></a>
+        </footer>

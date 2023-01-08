@@ -1,0 +1,168 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PruebaConexionMysql
+build_property.RootNamespace = PruebaConexionMysql
+build_property.ProjectDir = C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\PruebaConexionMysql\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\PruebaConexionMysql
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Beneficiario/Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmlvXERldGFsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Beneficiario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmlvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Beneficiario/Inicio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmlvXEluaWNpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Bodega/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9kZWdhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Donar/Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uYXJcRGV0YWxsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Donar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uYXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Donar/Inicio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uYXJcSW5pY2lvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Evento/Actualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvXEFjdHVhbGl6YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Evento/Guardar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvXEd1YXJkYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Evento/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Fundacion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuZGFjaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Home/Buscador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCdXNjYWRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Persona/Actualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxBY3R1YWxpemFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Persona/Guardar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxHdWFyZGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Persona/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Puestos/Actualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3Rvc1xBY3R1YWxpemFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Puestos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3Rvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Puestos/Nuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3Rvc1xOdWV2by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Reportes/facturaBeneficio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcZmFjdHVyYUJlbmVmaWNpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Reportes/facturaDonación.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcZmFjdHVyYURvbmFjacOzbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Reportes/Fecha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcRmVjaGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Reportes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Reportes/Inicio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcSW5pY2lvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Reportes/PlantillaEvento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcUGxhbnRpbGxhRXZlbnRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Reportes/PlantillaFechaBeneficio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcUGxhbnRpbGxhRmVjaGFCZW5lZmljaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Reportes/PlantillaFechaDonacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcUGxhbnRpbGxhRmVjaGFEb25hY2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/TipoDonacion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0RvbmFjaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/User/Actualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBY3R1YWxpemFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/User/Guardar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxHdWFyZGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel Calderon/Desktop/proyecto web/Entrega final/DesarrolloEnAsp/PruebaConexionMysql/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-biu7facvqg

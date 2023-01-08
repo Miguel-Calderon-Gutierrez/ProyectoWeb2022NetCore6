@@ -1,0 +1,192 @@
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll

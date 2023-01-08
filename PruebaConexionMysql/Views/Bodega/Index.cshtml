@@ -1,0 +1,44 @@
+﻿@model IEnumerable<LogicaNegocio.Models.BodegaModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Bodega.css" />
+    <title>Bodega</title>
+</head>
+<body>
+    <main>
+        <h1>BODEGA</h1>
+        <section class="contenido">
+            <img src="~/css/images/BODEGA.png" />
+            <table class="tablita">
+                <tr class="encabezado">
+                    <th>CANTIDAD</th>
+                    <th>TIPO PRODUCTO</th>
+                    <th>UNIDAD DE MEDIDA</th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.CANTIDAD)</td>
+                        <td>@Html.DisplayFor(modelItem => item.NOMBRE_TIPO_DONACION)</td>
+                        <td>@Html.DisplayFor(modelItem => item.UNIDAD_DE_MEDIDA)</td>
+                    </tr>
+                }
+            </table>
+        </section>
+
+        <label class="Info-Reportes">Reporte en pdf: </label>
+        <a asp-action="Inicio" asp-controller="Reportes" asp-route-descargar="true" class="reportes reportes1">Descargar</a>
+        <a asp-action="Inicio" asp-controller="Reportes" asp-route-descargar="false" class="reportes reportes1">Ver</a>
+
+    </main>
+</body>
+</html>

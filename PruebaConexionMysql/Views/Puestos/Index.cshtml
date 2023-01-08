@@ -1,0 +1,45 @@
+﻿@model IEnumerable<LogicaNegocio.Models.PuestoModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="/css/verpuestos.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Agregar Donacion</title>
+</head>
+<body>
+    <h1>PUESTOS DE DONACION</h1>
+    <section class="contenido">
+        <div class="contenido-centro">
+            <div class="caja-imagen">
+                <img src="/css/images/PUESTO.png" />
+            </div>
+            <table class="tablita">
+                <tr class="encabezado1">
+                    <th>NOMBRE PUESTO</th>
+                    <th>DIRECCION</th>
+                    <th>HORA APERTURA</th>
+                    <th>HORA CIERRE</th>
+                    <th></th>
+                </tr>
+                @foreach(var item in Model){
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.NOMBRE_PUESTO)</td>
+                        <td>@Html.DisplayFor(modelItem => item.DIRECCION_PUESTO)</td>
+                        <td>@Html.DisplayFor(modelItem => item.HORA_APERTURA)</td>
+                        <td>@Html.DisplayFor(modelItem => item.HORA_CIERRE)</td>
+                        <td> <a asp-action="Actualizar" asp-controller="Puestos" asp-route-ID_PUESTO_DONACION="@item.ID_PUESTO_DONACION" class="caja-editar"><button class="boton-editar">Editar</button></a></td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="box-boton">
+            <a class="enlace" asp-controller="Puestos" asp-action="Nuevo"><button class="boton2">AÑADIR</button></a>
+        </div>
+    </section>
+</body>

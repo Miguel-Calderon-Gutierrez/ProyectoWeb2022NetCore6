@@ -1,0 +1,45 @@
+﻿@model LogicaNegocio.Models.EventoModel
+
+
+@{
+    ViewData["Title"] = "Guardar";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="/css/agregarevento.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Agregar Evento</title>
+</head>
+
+<body>
+    <h1>AÑADIR EVENTO</h1>
+    <section class="contenido">
+        <form asp-controller="Evento" asp-action="Guardar" method="post" class="izquierda" id="formularito">
+            <span>Nombre Evento</span>
+            <input asp-for="NOMBRE_EVENTO" type="text" required class="input1" />
+            <span>Fecha Inicio</span>
+            <input asp-for="FECHA_INICIO" type="date" required class="input1" />
+            <span>Fecha Fin</span>
+            <input asp-for="FEHCA_FIN" type="date" class="input2" />
+            <span>Categoria</span>
+            <select asp-for="CATEGORIA_EVENTO">
+                <option value="RECOLECCION">Recoleccion</option>
+                <option value="ENTREGA">Entrega</option>
+            </select>
+            <span>Descripcion</span>
+            <textarea asp-for="DESCRIPCION" type="text" class="area"></textarea>
+        </form>
+        <div class="derecha">
+            <img src="/css/images/evento2.png"/>
+            <div class="boton-caja">
+                <button form="formularito" class="boton">AÑADIR</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+

@@ -1,0 +1,56 @@
+﻿@model LogicaNegocio.Models.PersonaModel
+
+@{
+    ViewData["Title"] = "Modificar";
+}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/actualizarPersona.css" />
+    <title>PERSONAS</title>
+</head>
+<html>
+<div class="main-persona">
+    <h1>MODIFICAR PERSONA</h1>
+    <div class="formulario-persona">
+        <form asp-action="ActualizarPersona" id="formulario">
+
+            <label asp-for="nombre1" class="control-label"></label>
+   
+            <input asp-for="nombre1" />
+
+            <label asp-for="nombre2" class="control-label"></label>
+
+            <input asp-for="nombre2" />
+
+            <label asp-for="apellido1" class="control-label"></label>
+     
+            <input asp-for="apellido1" />
+
+            <label asp-for="apellido2" class="control-label"></label>
+   
+            <input asp-for="apellido2" />
+
+            <label asp-for="correo" class="control-label"></label>
+         
+            <input asp-for="correo" />
+
+            <label asp-for="telefono" class="control-label"></label>
+     
+            <input asp-for="telefono" />
+
+            <input asp-for="idPersona" style="display:none" />
+        </form>
+            <div class="imagen-persona">
+                <img src="/css/images/persona.png"/>
+            </div>
+
+       
+    </div>
+
+    <div class="caja-boton5">
+        <button type="submit" form="formulario" class="boton-guardarpersona">MODIFICAR</button>
+    </div>
+</div>
+</html>

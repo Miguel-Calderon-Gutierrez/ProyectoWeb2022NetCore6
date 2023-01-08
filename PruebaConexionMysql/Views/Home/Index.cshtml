@@ -1,0 +1,38 @@
+﻿@model LogicaNegocio.Models.FundacionModel;
+@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+    <link rel="stylesheet" href="/css/ModDonar.css" />
+</head>
+
+<main class="main-home">
+ @if(ViewBag.rol!=""){
+    <h1>Bienvenido señor @ViewBag.rol</h1>
+ }
+ else
+ {
+   <h1>Bienvenido </h1>
+ }
+
+ <h2>
+     ¿Quienes somos? 
+ </h2>
+    <h1>@Html.DisplayFor(model => model.NOMBRE_FUNDACION)</h1>
+ <img src="~/css/images/Home-donaciones.png"/>
+ <p class="p-home">
+   @Html.DisplayFor(model => model.INFORMACION_FUNDACION)
+ </p>
+
+  <h2>
+     ¿Donde nos encuentras? 
+ </h2>
+ <p class="p-home"> 
+     @Html.DisplayFor(model => model.UBICACION)
+ </p>
+
+ <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d997.0559327221641!2d-75.60453357911996!3d1.6199439169901904!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8e244e2307a3b2af%3A0x2eb9e14897cad6c7!2sUniversidad%20de%20la%20Amazonia%20sede%20principal%20Universidad%20de%20la%20Amazonia%20sede%20principal%2C%20Carrera%20%233%2C%20Florencia%2C%20Caquet%C3%A1!3m2!1d1.6201269999999999!2d-75.6042556!5e0!3m2!1ses-419!2sco!4v1666492221633!5m2!1ses-419!2sco"
+  height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</main>
+

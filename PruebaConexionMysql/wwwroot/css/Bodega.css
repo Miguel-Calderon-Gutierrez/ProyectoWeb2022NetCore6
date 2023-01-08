@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+
+
+.tablita{
+    margin-top:1rem;
+    background-color: whitesmoke;
+    width: 80%;
+    height:auto;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 6px lightgray;
+    margin-bottom:10px;
+}
+
+td{
+    height:50px;
+}
+
+th{
+    height:50px;
+}
+
+.contenido{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.encabezado {
+    background-color: lightgray;
+}
+
+img{
+    width:40%;
+}
+
+.reportes {
+    border-radius: 8px;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 7px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.reportes1 {
+    background-color: white;
+    color: black;
+    border: 2px solid lightgray;
+}
+
+    .reportes1:hover {
+        background-color: lightgray;
+        color: black;
+    }
+
+.Info-Reportes {
+    margin: 0 0  0 60%;
+    text-transform:uppercase;
+}

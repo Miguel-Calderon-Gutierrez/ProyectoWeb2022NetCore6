@@ -1,0 +1,54 @@
+﻿@model LogicaNegocio.Models.UserModel
+
+@{
+    ViewData["Title"] = "Guardar";
+}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/usuarioActualizar.css"/>
+    <title>USUARIOS</title>
+</head>
+
+<html>
+<div class="main-persona">
+
+    <h1>GUARDAR USUARIOS</h1>
+    <div class="formulario-persona">
+        <form class="guardar-form" id="formulario" asp-action="Guardar">
+
+            <label asp-for="NOMBRE_USUARIO" class="control-label"></label>
+            <input asp-for="NOMBRE_USUARIO" class="form-control" />
+
+            <label asp-for="CONTRASENA" class="control-label"></label>
+            <input asp-for="CONTRASENA" class="form-control" type="password" />
+
+            <label asp-for="CORREO" class="control-label"></label>
+            <select asp-for="CORREO" class="select1">
+                @foreach (var item in ViewBag.Correos)
+                {
+                    <option value="@item.correo">@item.correo</option>
+                }
+            </select>
+
+            <label asp-for="ROL" class="control-label"></label>
+            <select asp-for="ROL" class="select1">
+                @foreach (var item in ViewBag.Roles)
+                {
+                    <option value="@item.ID_USUARIO">@item.ROL</option>
+                }
+            </select>
+
+        </form>
+    </div>
+    <div class="container-imagen">
+        <img class="imagen" src="/css/images/USUARIOS.png" />
+       <div class="caja-boton4">
+            <button form="formulario" class="agregar-boton">AÑADIR</button>
+       </div>
+    </div>
+
+</div>
+</html>
+

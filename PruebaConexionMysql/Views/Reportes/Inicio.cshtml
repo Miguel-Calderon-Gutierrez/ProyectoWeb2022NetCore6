@@ -1,0 +1,152 @@
+﻿@using LogicaNegocio.Models
+@{
+    Layout = null;
+}
+@model LogicaNegocio.Models.ReporteModel
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .Imgen-encabezado {
+            width: 70px;
+            height: auto;
+        }
+
+        tr {
+            margin: 20px;
+        }
+
+        thead .campo {
+            padding: 0 50px;
+            background-color: rgb(120, 132, 128);
+        }
+
+        .sub-informacion-item {
+            text-align: center;
+        }
+
+        .campo {
+            padding: 0 50px;
+            text-align: center;
+            background-color: rgb(226, 226, 226);
+        }
+
+        .campo-cabecera-titulo {
+            vertical-align: bottom;
+            text-align: center;
+            margin: 0 auto;
+            padding: 0px 30px;
+            /*  border: solid 1px black;*/
+        }
+
+        .campo-cabecera {
+            vertical-align: middle;
+            text-align: center;
+            padding: 0px 30px;
+            /*  border: solid 1px black;*/
+        }
+
+        .Container-informativo {
+            margin: 10px;
+        }
+
+        .titulo {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .encabezado {
+            color: white;
+            background-color: rgb(74, 74, 74);
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="encabezado">
+        <center>
+            <table>
+                <tr>
+                    <td colspan="4"><h1 class="titulo">Reporte de bodega</h1></td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="campo-cabecera">
+                        <img class="Imgen-encabezado" src="~/css/images/fundacion (1).png"
+                             alt="Logo">
+                    </td>
+                    <td class="campo-cabecera-titulo">
+                        <span class="sub-informacion-item">USUARIO</span>
+                    </td>
+                    <td class="campo-cabecera-titulo">
+                        <span class="sub-informacion-item">FECHA EMISION</span>
+                    </td>
+                    <td class="campo-cabecera-titulo">
+                        <span class="sub-informacion-item">HORA EMISION</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="campo-cabecera">
+                        <span class="sub-informacion-item">@Model.usuario</span>
+                    </td>
+                    <td class="campo-cabecera">
+                        <span class="sub-informacion-item"> @Model.fecha</span>
+                    </td>
+                    <td class="campo-cabecera">
+                        <span class="sub-informacion-item">@Model.hora</span>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+
+    <div class="contenido">
+        <center>
+            <table>
+                <thead>
+                    <tr>
+                        <td class="campo">
+                            <span class="sub-informacion-item">TIPO PRODUCTO</span>
+                        </td>
+                        <td class="campo">
+                            <span class="sub-informacion-item">UNIDAD DE MEDIDA</span>
+                        </td>
+                        <td class="campo">
+                            <span class="sub-informacion-item">CANTIDAD</span>
+                        </td>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (BodegaModel item in Model.data)
+                    {
+                        <tr>
+                            <td class="campo">
+                                <span class="sub-informacion-item">@item.NOMBRE_TIPO_DONACION.ToUpper()</span>
+                            </td>
+                            <td class="campo">
+                                <span class="sub-informacion-item">@item.UNIDAD_DE_MEDIDA</span>
+                            </td>
+                            <td class="campo">
+                                <span class="sub-informacion-item">@item.CANTIDAD </span>
+                            </td>
+                        </tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </center> 
+    </div>
+
+</body>
+
+</html>

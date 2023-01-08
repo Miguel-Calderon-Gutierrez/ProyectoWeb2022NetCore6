@@ -1,0 +1,74 @@
+﻿@model IEnumerable<LogicaNegocio.Models.EventoModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Evento.css" />
+</head>
+
+<html>
+<h1>VER EVENTOS</h1>
+<div class="container-imagen">
+    <img class="imagen" src="~/css/images/evento.png" />
+</div>
+<table class="tablita">
+    <thead>
+        <tr class="encabezado">
+
+            <th>
+                @Html.DisplayNameFor(model => model.NOMBRE_EVENTO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FECHA_INICIO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FEHCA_FIN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CATEGORIA_EVENTO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ESTADO)
+            </th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NOMBRE_EVENTO)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FECHA_INICIO)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FEHCA_FIN)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CATEGORIA_EVENTO)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ESTADO)
+                </td>
+                <td>
+                    <a class="cajaEditar" asp-action="Actualizar" asp-controller="Evento" asp-route-ID_EVENTO="@item.ID_EVENTO"> <button class="botonEditar"> Editar </button></a>
+                </td>
+                 <td>
+                    <a class="cajaEditar" asp-action="CambioEstado" asp-controller="Evento" asp-route-ID_EVENTO="@item.ID_EVENTO"> <button class="botonCambio"> Cambiar estado </button></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<footer class="fin">
+    <a class="cajaAnadir" asp-controller="Evento" asp-action="Guardar"><button class="botonAnadir">AÑADIR</button></a>
+</footer>
+</html>

@@ -1,0 +1,207 @@
+﻿@using LogicaNegocio.Models
+@model LogicaNegocio.Models.ReporteModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .Imgen-encabezado {
+            width: 70px;
+            height: auto;
+        }
+
+        tr {
+            margin: 20px;
+        }
+
+        thead .campo {
+            padding: 0 50px;
+            background-color: #0E76BB;
+        }
+
+        .sub-informacion-item{
+          text-align: center;
+        }
+
+        .campo-titulo{
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 10px 30px;
+            text-align: right;
+        }
+        .campo {
+            padding: 0 50px;
+             text-align: center;
+             color: rgb(255, 255, 255);
+             font-weight: bold;
+        }
+
+        .campo-info{
+            padding: 0 50px;
+             text-align: center;
+             color: rgb(0, 0, 0);
+            background-color: #ebf7ff;
+             font-weight: bold;
+        }
+        .campo-cabecera-titulo {
+            vertical-align: bottom;
+            text-align: center;
+            margin: 0 auto;
+            padding: 0px 30px;
+            /*  border: solid 1px black;*/
+        }
+
+        .campo-cabecera {
+            vertical-align: middle;
+            text-align: center;
+            padding: 0px 30px;
+            /*  border: solid 1px black;*/
+        }
+
+        .Container-informativo {
+            margin: 10px;
+        }
+
+        .titulo {
+            text-align: center;
+            margin-bottom:15px;
+        }
+
+        .encabezado {
+            color: white;
+            background-color: #0E76BB;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="encabezado">
+        <center>
+            <table>
+                <tr>
+                    <td colspan="4"><h1 class="titulo">Factura Donación</h1></td>
+                </tr>
+                <tr>
+                    <td class="campo-cabecera-titulo">
+                        <span class="sub-informacion-item">USUARIO</span>
+                    </td>
+                    <td class="campo-cabecera-titulo">
+                        <span class="sub-informacion-item">FECHA EMISION</span>
+                    </td>
+                    <td class="campo-cabecera-titulo">
+                        <span class="sub-informacion-item">HORA EMISION</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="campo-cabecera">
+                        <span class="sub-informacion-item">@Model.usuario</span>
+                    </td>
+                    <td class="campo-cabecera">
+                        <span class="sub-informacion-item"> @Model.fecha</span>
+                    </td>
+                    <td class="campo-cabecera">
+                        <span class="sub-informacion-item">@Model.hora</span>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+
+    <div class="contenido">
+        <center>
+            <div>
+                <table>
+                    
+                    <tr>
+                        <td class="campo-titulo">
+                            Documeto:
+                        </td>
+    
+                        <td>
+                            @Model.donante.DOCUMENTO_DONANTE
+                        </td>
+
+                        <td rowspan="6" width="150px"  height="auto">
+                            <img class="Imgen" src="~/css/images/factura.png" alt="Logo" style="width: 100%;">
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td class="campo-titulo">Nombre:</td>
+                        <td>@Model.donante.NOMBRE_DONANTE</td>
+                    </tr>
+                    <tr>
+                        <td class="campo-titulo">Fecha donación:</td>
+                        <td>@Model.donante.FECHA_DONACION</td>
+                    </tr>
+                    <tr>
+                        <td class="campo-titulo">Puesto:</td>
+                        <td>@Model.donante.NOMBRE_PUESTO</td>
+                    </tr>
+                    <tr>
+                        <td class="campo-titulo">Evento:</td>
+                        <td>@Model.donante.NOMBRE_EVENTO</td>
+                    </tr>
+                </table>
+                
+            </div>
+        </center>
+        <center>
+            <table>
+                <thead>
+                    <tr>
+                        <td class="campo">
+                            <span class="sub-informacion-item">PRODUCTO DONADO</span>
+                        </td>
+                        <td class="campo">
+                            <span class="sub-informacion-item">UNIDAD DE MEDIDA</span>
+                        </td>
+                        <td class="campo">
+                            <span class="sub-informacion-item">CANTIDAD DONADA</span>
+                        </td>
+                
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    @foreach (BodegaModel item in Model.data4)
+                    {
+         
+                        <tr>
+                            <td class="campo-info">
+                                <span class="sub-informacion-item">@item.NOMBRE_TIPO_DONACION</span>
+                            </td>
+                            <td class="campo-info">
+                                <span class="sub-informacion-item">@item.UNIDAD_DE_MEDIDA</span>
+                            </td>
+                            <td class="campo-info">
+                                <span class="sub-informacion-item">@item.CANTIDAD </span>
+                            </td>                      
+                        </tr>
+         
+                    }
+                  
+                </tbody>
+            </table>
+        </center>
+    </div>
+
+</body>
+
+</html>
+
+
+

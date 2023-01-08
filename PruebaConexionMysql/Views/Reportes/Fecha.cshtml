@@ -1,0 +1,74 @@
+﻿@model LogicaNegocio.Models.FechaModel
+@{
+    ViewData["Title"] = "Fecha";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Fecha.css" />
+    <title>Reportes por Fecha</title>
+</head>
+<body>
+    <main>
+        <h1>REPORTES</h1>
+        <section class="contenido-main1">
+            <div class="seccion1">
+                <h2>DONACIONES</h2>
+                <form class="box-cajas" id="formulario">
+                    <div class="cajas1">
+                        <span class="span1">Fecha Inicial</span>
+                        <input asp-for="Fecha_1" type="date" required class="fecha1" />
+                    </div>
+                    <div class="cajas1">
+                        <span class="span1">Fecha Final</span>
+                        <input asp-for="Fecha_2" type="date" required class="fecha1" />
+                    </div>
+                    <button form="formulario" formaction="FechaDonaciones1" formmethod="post" class="boton-opciones">VER</button>
+                    <button form="formulario" formaction="FechaDonaciones2" formmethod="post" class="boton-opciones">DESCARGAR</button>
+                </form>
+            </div>
+            <div class="seccion1">
+                <h2>BENEFICIOS</h2>
+                <form class="box-cajas" id="formulario2">
+                    <div class="cajas1">
+                        <span class="span1">Fecha Inicial</span>
+                        <input asp-for="Fecha_3" type="date" required class="fecha1" />
+                    </div>
+                    <div class="cajas1">
+                        <span class="span1">Fecha Final</span>
+                        <input asp-for="Fecha_4" type="date" required class="fecha1" />
+                    </div>
+                    <button form="formulario2" formaction="FechaBeneficios1" formmethod="post" class="boton-opciones">VER</button>
+                    <button form="formulario2" formaction="FechaBeneficios2" formmethod="post" class="boton-opciones">DESCARGAR</button>
+                </form>
+            </div>
+            <div class="seccion1">
+                <h2>EVENTOS</h2>
+                <form class="box-cajas" id="formulario3">
+                    <div class="cajas1">
+                        <span class="span1">TIPO EVENTO</span>
+                        <select asp-for="tipo" class="fecha1">
+                            <option>RECOLECCION</option>
+                            <option>ENTREGA</option>
+                        </select>
+                    </div>
+                    <div class="cajas1">
+                        <span class="span1">ESTADO</span>
+                        <select asp-for="estado" class="fecha1">
+                            <option>ACTIVO</option>
+                            <option>INACTIVO</option>
+                        </select>
+                    </div>
+                    <button form="formulario3" formaction="EventosVer" formmethod="post" class="boton-opciones">VER</button>
+                    <button form="formulario3" formaction="EventosDescargar" formmethod="post" class="boton-opciones">DESCARGAR</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+

@@ -1,0 +1,51 @@
+﻿@model LogicaNegocio.Models.ModelDonar
+@{
+    List<LogicaNegocio.Models.ModelDonar> productos = ViewBag.productos;
+    int idReporte = ViewBag.idDonacionReporte;
+}
+@{
+    ViewData["Title"] = "Detalle";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="/css/verDonaciones.css" />
+    <link rel="stylesheet" href="/css/DetalleDonacion.css" />
+    <title>DONACIONES</title>
+</head>
+<body>
+    <main>
+        <h1>DETALLE DONACION</h1>
+        <section class="contenido5">
+            <div class="izquierda">
+                <label>Documento:@Model.DOCUMENTO_DONANTE</label>
+                <label>Nombre: @Model.NOMBRE_DONANTE</label>
+                <label>Fecha:@Model.FECHA_DONACION</label>
+                <label>Puesto:@Model.NOMBRE_PUESTO</label>
+                 <label>Puesto:@Model.NOMBRE_EVENTO</label>
+            </div>
+            <img class="derecha" src="/css/images/no3.png" />
+        </section>
+        <table class="tablita">
+            <tr class="encabezado">
+                <th>TIPO PRODUCTO</th>
+                <th>CANTIDAD</th>
+            </tr>
+            @foreach (var item2 in productos)
+            {
+                <tr>
+                    <td>@item2.NOMBRE_TIPO_DONACION</td>
+                    <td>@item2.CANTIDAD_DONACION</td>
+                </tr>
+            }
+        </table>
+    </main>
+    <div class="caja-boton">
+        <a class="enlace-a" asp-controller="Reportes" asp-action="facturaDonación" asp-route-idDonacion="@idReporte"><button>Descargar Factura</button></a>
+    </div>
+</body>
+</html>

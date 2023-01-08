@@ -1,0 +1,98 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+
+body{
+    background-color:whitesmoke;
+    margin-top:1rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.encabezado2{
+    margin-top:1rem;
+}
+
+.imagen6{
+    width:120px;
+    padding:8px;
+}
+
+
+
+.titulo{
+    padding:3px;
+    text-align:center;
+}
+
+.espacio1{
+    vertical-align:middle;
+    padding:1rem;
+    text-align:center;
+    border-right:2px solid black;
+}
+
+
+.espacio3{
+    vertical-align: middle;
+    padding: 1rem;
+    text-align: center;
+}
+
+.espacio2{
+    width:150px;
+    text-align:center;
+    padding:1rem;
+    border-right:2px solid black;
+    border-top:2px solid black;
+}
+
+.espacio4{
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border-top:2px solid black;
+}
+
+.espacio5{
+    text-align:center;
+    padding:10px;
+    border-top:2px solid black;
+    border-right:2px solid black;
+}
+
+.espacio6{
+    text-align:center;
+    padding:10px;
+    border-top:2px solid black;
+}
+
+.espacio7{
+    text-align:center;
+    padding:10px;
+    font-size:1.4rem;
+    border-top:2px solid black;
+}
+
+
+.tabla{
+    background-color:white;
+    border:2px solid black;
+    margin-top:1.3rem;
+}
+
+.cabeza-imagen{
+    border-right:2px solid black;
+}
+
+.cabeza-titulo{
+    border-bottom:2px solid black;
+}
+
+.cabezas3{
+    border-bottom:2px solid black;
+}

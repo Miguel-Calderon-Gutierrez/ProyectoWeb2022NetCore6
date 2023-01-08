@@ -1,0 +1,87 @@
+﻿<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - PruebaConexionMysql</title>
+        <script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+         <link rel="stylesheet" href="~/css/ModDonar.css"/>
+         <style>
+              .iconos {
+                 width:20px;
+                 height: 20px;
+                 margin-right:5px;
+              }
+              .opcionesLista a{
+                width:100%;
+                align-items: center;
+                justify-items:center;
+                align-content:center
+              }
+
+              .opcionesLista{
+                 width: 100%;
+                 transition: background-color .5s;
+              }
+   
+
+           .opcionesLista:hover {
+                background-color: rgb(72, 122, 175, 1);
+            }
+
+
+         </style>
+        @await RenderSectionAsync("Scripts", required: false)
+    </head>
+    <body>
+        <main class="main-principal">
+            <div class="barra">
+                <ul class="lista">
+                 @if (ViewBag.autenticado)
+                {
+                    <li  class="opcionesLista"><a  asp-controller="Home" asp-action="Index"><img src="~/css/images/iconos/UserActivo.png" class="iconos"/> @ViewBag.UserActivo </a></li>
+                }
+                else
+                {
+                     <li  class="opcionesLista"><a  asp-controller="Home" asp-action="Index"><img src="~/css/images/iconos/inicio-b.png" class="iconos"/> Inicio </a></li>
+
+                }
+                <li  class="opcionesLista"><a asp-controller="Home" asp-action="Buscador"><img src="~/css/images/iconos/buscar-b.png" class="iconos"/> Buscador</a></li>
+
+                @if (ViewBag.autenticado)
+                {
+                    <li  class="opcionesLista"><a asp-controller="Evento" asp-action="Index"><img src="~/css/images/iconos/eventos-b.png" class="iconos"/>Eventos</a></li>
+                    @if (ViewBag.rol == "Administrador")
+                    {
+                        <li class="opcionesLista"><a asp-controller="Fundacion" asp-action="Index"><img src="/css/images/fundacion_icon.png" class="iconos" />Fundacion</a></li>
+                        <li  class="opcionesLista"><a asp-controller="Persona" asp-action="Index"><img src="~/css/images/iconos/persona-b.png" class="iconos"/>Personas</a></li>
+                        <li  class="opcionesLista"><a asp-controller="User" asp-action="Index"><img src="~/css/images/iconos/usuario-b.png" class="iconos"/>Usuarios</a></li>
+                    }                   
+
+                    <li  class="opcionesLista"><a asp-controller="Puestos" asp-action="Index"><img src="~/css/images/iconos/puesto-b.png" class="iconos"/>Puestos</a></li>
+                    <li  class="opcionesLista"><a asp-controller="Donar" asp-action="Inicio"><img src="~/css/images/iconos/Donacion-b.png" class="iconos"/>Donacion</a></li>
+
+                    <li  class="opcionesLista"><a asp-controller="TipoDonacion" asp-action="Index"><img src="~/css/images/iconos/tipoDonacion-b.png" class="iconos"/>Tipo Donacion</a></li>
+                    <li  class="opcionesLista"><a asp-controller="Beneficiario" asp-action="Inicio"><img src="~/css/images/iconos/beneficiario-b.png" class="iconos"/>Beneficiario</a></li>
+                    <li  class="opcionesLista"><a asp-controller="Bodega" asp-action="Index"><img src="~/css/images/iconos/Bodega-b.png" class="iconos"/>Bodega</a></li>
+                     <li  class="opcionesLista"><a asp-controller="Reportes" asp-action="Fecha"><img src="~/css/images/iconos/reportes-b.png" class="iconos"/>Reportes</a></li>
+                    <li  class="opcionesLista"><a asp-controller="Login" asp-action="Salir"><img src="~/css/images/iconos/cerrar-sesion-b.png" class="iconos"/>Cerrar Sesion</a></li>
+                    
+
+                }
+                else
+                {
+                     <li class="opcionesLista"><a asp-controller="Login" asp-action="Index"> <img src="~/css/images/iconos/iniciar-sesion-b.png" class="iconos"/> Iniciar Sesion</a></li>                    
+                }               
+                
+                </ul>
+            </div>
+            
+            <div class="contenido-vista">
+               @RenderBody()
+            </div>
+        </main>
+    </body>
+</html>

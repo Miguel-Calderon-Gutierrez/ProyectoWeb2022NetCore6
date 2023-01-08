@@ -1,0 +1,44 @@
+﻿@model LogicaNegocio.Models.EventoModel
+@{
+    ViewData["Title"] = "Actualizar";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="/css/agregarevento.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Agregar Evento</title>
+</head>
+
+<body>
+    <h1>ACTUALIZAR EVENTO</h1>
+    <section class="contenido">
+        <form asp-controller="Evento" asp-action="Actualizar" method="post" class="izquierda" id="formularito">
+            <span>Nombre Evento</span>
+            <input asp-for="NOMBRE_EVENTO" type="text" required class="input1" />
+            <span>Fecha Inicio</span>
+            <input value="@Model.FECHA_INICIO" asp-for="FECHA_INICIO" type="date" required class="input1" />
+            <span>Fecha Fin</span>
+            <input value="@Model.FEHCA_FIN" asp-for="FEHCA_FIN" type="date" class="input2" />
+            <span>Categoria</span>
+            <select asp-for="CATEGORIA_EVENTO">
+                <option value="RECOLECCION">Recoleccion</option>
+                <option value="ENTREGA">Entrega</option>
+            </select>
+            <span>Descripcion</span>
+            <textarea asp-for="DESCRIPCION" type="text" class="area"></textarea>
+            <input asp-for="ID_EVENTO" type="number" style="display:none;" />
+        </form>
+        <div class="derecha">
+            <img src="/css/images/evento2.png" />
+            <div class="boton-caja">
+                <button form="formularito" class="boton">ACTUALIZAR</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+

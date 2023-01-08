@@ -1,0 +1,42 @@
+﻿@using LogicaNegocio.Models
+@model List<LogicaNegocio.Models.EventoModel>
+@{
+    ViewData["Title"] = "Buscador";
+    var i = 0;
+}
+<head>
+    <link rel="stylesheet" href="~/css/ModDonar.css" />
+</head>
+
+<h1>Buscador</h1>
+
+    <form class="form-Buscador" asp-action="Buscador" method="post">
+        <div class="borde-buscador"> 
+            <button type="submit"><img src="~/css/images/iconos/lupa.png"/></button>
+            <input placeholder="Ejemplo: jovenes en accion" class="buscador" name="palabra" /> 
+        </div>         
+    </form>
+
+@foreach(var evento in Model) {
+        
+      <div class="div-evento">
+        <h3>@evento.NOMBRE_EVENTO</h3>
+        <p>@evento.DESCRIPCION</p>
+        <div class="fechas">
+        <label>@evento.FECHA_INICIO</label>      <label>@evento.FEHCA_FIN</label>
+        </div>
+        
+        <h4>Puestos de donación</h4>
+        <ul>
+            @foreach(PuestoModel puesto in ViewBag.puestos[i]){
+             <li class="itemPuesto">@puesto.NOMBRE_PUESTO - @puesto.DIRECCION_PUESTO</li>
+            }
+           
+        </ul>
+        @{
+         i++;
+        }
+    </div>         
+    
+}
+

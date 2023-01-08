@@ -1,0 +1,45 @@
+﻿@model IEnumerable<LogicaNegocio.Models.BeneficiarioModel>
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/verBeneficiario.css" />
+    <title>BENEFICIARIOS</title>
+</head>
+<body>
+    <main>
+        <h1>BENEFICIARIOS</h1>
+        <section class="contenido">
+            <img src="~/css/images/beneficiario.png" />
+            <table class="tablita">
+                <tr class="encabezado">
+                    <th>DOCUMENTO</th>
+                    <th>NOMBRE BENEFICIARIO</th>
+                    <th>FECHA ENTREGA</th>
+                    <th>PUESTO</th>
+                    <th></th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.DOCUMENTO_BENEFICIARIO)</td>
+                        <td>@Html.DisplayFor(modelItem => item.NOMBRE_BENEFICIARIO)</td>
+                        <td>@Html.DisplayFor(modelItem => item.FECHA_ENTREGA)</td>
+                        <td>@Html.DisplayFor(modelItem => item.NOMBRE_PUESTO)</td>
+                        <td><a asp-controller="Beneficiario" asp-action="Detalle" asp-route-ID_BENEFICIO="@item.ID_BENEFICIO" class="caja-detalle"><button class="boton-detalle">DETALLE</button></a></td>
+                    </tr>
+                }
+            </table>
+        </section>
+        <div class="caja-boton">
+            <a  class="enlace-a" asp-controller="Beneficiario" asp-action="Index" ><button>AÑADIR</button></a>
+        </div>
+    </main>
+</body>
+

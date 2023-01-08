@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+
+.container-imagen{
+    width:100%;
+    justify-content:center;
+    display:flex;
+}
+
+.caja-tabla{
+    display:flex;
+    justify-content:center;
+}
+
+.imagen{
+    margin-top:1rem;
+    width:40%;
+}
+
+.tablita {
+    margin-top:2rem;
+    background-color: whitesmoke;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 6px lightgray;
+}
+
+
+.encabezado {
+    background-color: lightgray;
+}
+
+td {
+    text-align:center;
+    height: 40px;
+}
+
+th {
+    text-align: center;
+    height: 30px;
+}
+
+h1{
+    width:100%;
+    text-align:center;
+}
+
+img{
+    
+    width:40%;
+    height:40%;
+}
+
+.container-imagen {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fin {
+    display: block;
+    margin: 30px;
+    width: 95%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonAnadir {
+    font-size:1rem;
+    margin-right: 3rem;
+    width: 11%;
+    height: 100%;
+    background-color: #121625;
+    border:none;
+    border-radius:8px;
+    color:white;
+}
+
+.cajaAnadir {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    ;
+}
+
+.botonesOpciones{
+    width:20px;
+    height:20px;
+}
+
+.cajaEliminar{
+    width:100%;
+    height:100%;
+}
+
+.botonEliminar {
+    cursor: pointer;
+    color: red;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    width: 70px;
+    background-color: white;
+}
+
+}
+
+.cajaEditar {
+    width: 100%;
+    height: 100%;
+}
+
+tr {
+    height:30px;
+}
+
+.botonEditar {
+    font-size: 1rem;
+    cursor: pointer;
+    color: green;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    width: 100px;
+    background-color: white;
+}
+
+.main-persona {
+    display: grid;
+    width:100%;
+    height:100vh;
+    grid-template-columns: 30% 70%;
+}
+
+.boton-guardarpersona {
+    width: 120px;
+    height: 30px;
+    background: #121625;
+    color:white;
+    border-radius:9px
+}
+
+.formulario-persona {
+   margin:0 80px;
+}
+
+.formulario-persona input {
+    width: 150%;
+    height: 28px;
+    margin: 5px 0;
+    border-radius: 10px
+}
+
+.imagen-persona {
+   margin-top: 40px;
+}
+
+ .imagen-persona img {   
+    height: auto;
+}
+
+.select1 {
+    width: 150%;
+    display:block;
+    margin: 10px 0;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid black;
+}

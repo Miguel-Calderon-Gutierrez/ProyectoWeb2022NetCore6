@@ -1,0 +1,43 @@
+﻿@model LogicaNegocio.Models.TipoDonacionModel
+
+@{
+    List<LogicaNegocio.Models.UnidadModel> Unidades1 = ViewBag.Unidades;
+}
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/TipoDonacion.css" />
+    <title>TIPO DONACION</title>
+</head>
+<body>
+    <main>
+        <section class="content">
+            <div class="sisa">
+                <h1>AÑADIR TIPO DONACION</h1>
+                <form asp-controller="TipoDonacion" asp-action="Nuevo" method="post" class="contenido2" id="formularito">
+                    <span>Nombre Tipo Donacion</span>
+                    <input asp-for="NOMBRE_TIPO_DONACION" type="text" required />
+                    <span>Unidad Medida</span>
+                     <input asp-for="UNIDAD_DE_MEDIDA" list="unidades">
+                    <datalist  id="unidades">
+                      @foreach(var item in Unidades1){
+                          <option>@item.UNIDAD_DE_MEDIDA</option>
+                      }
+                    </datalist>
+                </form>
+            </div>
+            <img class="imagen1" src="/css/images/no5.png" />
+        </section>
+        <div class="boton-box">
+            <button form="formularito" class="botoncito">AÑADIR</button>
+        </div>
+    </main>
+</body>

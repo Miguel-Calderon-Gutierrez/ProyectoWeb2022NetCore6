@@ -1,0 +1,45 @@
+﻿@model LogicaNegocio.Models.PersonaModel
+
+@{
+    ViewData["Title"] = "Guardar";
+}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/personaGuardar.css" />
+    <title>PERSONAS</title>
+</head>
+<html>
+<div class="main-persona">
+    <h1>GUARDAR PERSONA<H1>
+        <div class="formulario-persona">
+            <form asp-action="Guardar" id="formulario" class="formulario2">
+
+                <label asp-for="nombre1" class="control-label"></label>
+                <input asp-for="nombre1" />
+
+                <label asp-for="nombre2" class="control-label"></label>
+                <input asp-for="nombre2" />
+
+                <label asp-for="apellido1" class="control-label"></label>
+                <input asp-for="apellido1" />
+                <label asp-for="apellido2" class="control-label"></label>
+                <input asp-for="apellido2" />
+                <label asp-for="correo" class="control-label"></label>
+                <input asp-for="correo" />
+                <label asp-for="telefono" class="control-label"></label>
+                <input asp-for="telefono" />
+            </form>
+            <div class="imagen-persona">
+                <img class="imagen" src="/css/images/persona.png" />
+            </div>
+        </div>
+        <div class="caja-boton5">
+            <button form="formulario" type="submit" class="boton-guardarpersona">GUARDAR</button>
+        </div>
+</div>
+</html>
+
+
+

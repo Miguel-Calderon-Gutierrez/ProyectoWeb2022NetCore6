@@ -1,0 +1,240 @@
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.deps.json
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CopyComplete
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\refint\LogicaNegocio.dll
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\source\repos\proyectoWebFundacion\webHuevos\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\ref\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.deps.json
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CopyComplete
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\refint\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\ref\LogicaNegocio.dll
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.deps.json
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.dll
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.pdb
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.AssemblyReference.cache
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfoInputs.cache
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfo.cs
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CopyComplete
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.dll
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\refint\LogicaNegocio.dll
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.pdb
+D:\asp.net\Prueba\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\ref\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.deps.json
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CopyComplete
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\refint\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\ref\LogicaNegocio.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.deps.json
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.pdb
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.AssemblyReference.cache
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfoInputs.cache
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfo.cs
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CopyComplete
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\refint\LogicaNegocio.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.pdb
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\ref\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.deps.json
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CopyComplete
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\refint\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\ProyectoToledo2\PruebaConexionMysql-si\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\ref\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.deps.json
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CopyComplete
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\refint\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoFinal\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\ref\LogicaNegocio.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.deps.json
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.pdb
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.AssemblyReference.cache
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfoInputs.cache
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfo.cs
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CopyComplete
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\refint\LogicaNegocio.dll
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.pdb
+D:\asp.net\Nuevo-Final-Usar\PruebaConexionMysql\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\ref\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.deps.json
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CopyComplete
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\refint\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\ref\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.deps.json
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CopyComplete
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\refint\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\CodigoVersion_6_11_12\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\ref\LogicaNegocio.dll
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.AssemblyReference.cache
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfoInputs.cache
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfo.cs
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.dll
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\refint\LogicaNegocio.dll
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.pdb
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.deps.json
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.dll
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.pdb
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CopyComplete
+D:\asp.net\Final-Cuadrando\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\ref\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.deps.json
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CopyComplete
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\refint\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Desarrollo en AspNetCore\versionFinalToledo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\ref\LogicaNegocio.dll
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.deps.json
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.dll
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.pdb
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.AssemblyReference.cache
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfoInputs.cache
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfo.cs
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CopyComplete
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.dll
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\refint\LogicaNegocio.dll
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.pdb
+D:\asp.net\Nuevo-134mb-ultimo\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\ref\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.deps.json
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CopyComplete
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\refint\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Downloads\ProyectoReportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\ref\LogicaNegocio.dll
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.deps.json
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.dll
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.pdb
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.dll
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.pdb
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.AssemblyReference.cache
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfoInputs.cache
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfo.cs
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CopyComplete
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.dll
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\refint\LogicaNegocio.dll
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.pdb
+D:\asp.net\Proyecto Web con reportes\PruebaConexionMysql\LogicaNegocio\obj\Debug\net6.0\ref\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.deps.json
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\LogicaNegocio\bin\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\LogicaNegocio\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.csproj.CopyComplete
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\LogicaNegocio\obj\Debug\net6.0\refint\LogicaNegocio.dll
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\LogicaNegocio\obj\Debug\net6.0\LogicaNegocio.pdb
+C:\Users\Miguel Calderon\Desktop\proyecto web\Entrega final\DesarrolloEnAsp\LogicaNegocio\obj\Debug\net6.0\ref\LogicaNegocio.dll

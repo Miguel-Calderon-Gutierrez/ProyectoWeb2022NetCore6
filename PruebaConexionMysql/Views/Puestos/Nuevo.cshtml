@@ -1,0 +1,47 @@
+﻿@model LogicaNegocio.Models.PuestoModel
+
+@{
+    List<LogicaNegocio.Models.PuestoEventoModel> Eventos = ViewBag.Eventos;
+}
+
+@{
+    ViewData["Title"] = "Nuevo";
+}
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="/css/agregarpuesto.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Agregar Puesto</title>
+</head>
+
+<body>
+    <h1>AÑADIR PUESTO</h1>
+    <section class="contenido">
+        <form asp-controller="Puestos" asp-action="Guardar" method="post" class="izquierda" id="formularito">
+            <span>Nombre Puesto</span>
+            <input asp-for="NOMBRE_PUESTO" type="text" required class="input1"/>
+            <span>Direccion Puesto</span>
+            <input asp-for="DIRECCION_PUESTO" type="text" required class="input1"/>
+            <span>Hora Apertura</span>
+            <input asp-for="HORA_APERTURA" type="time" class="input2"/>
+            <span>Hora Cierre</span>
+            <input asp-for="HORA_CIERRE" type="time" class="input2"/>
+            <span>Evento a añadir el puesto</span>
+            <select asp-for="FK_EVENTO">
+                @foreach(var item in Eventos){
+                    <option value="@item.ID_EVENTO">@item.NOMBRE_EVENTO</option>
+                }
+            </select>
+        </form>
+        <div class="derecha">
+            <img src="/css/images/no4.png"/>
+            <button form="formularito" class="boton">AÑADIR</button>
+        </div>
+    </section>
+</body>

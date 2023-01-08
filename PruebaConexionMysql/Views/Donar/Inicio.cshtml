@@ -1,0 +1,65 @@
+﻿@model IEnumerable<LogicaNegocio.Models.ModelDonar>
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/verDonaciones.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>DONACIONES</title>
+</head>
+<body>
+    <main>
+        @if ( ViewBag.transaccionNueva == true && ViewBag.transaccionRealizada == false )
+        {
+            <script>
+                swal({
+                    title: "Transacción fallida",
+                    text: "No se ha podido guardar la informacion",
+                    icon: "error"
+                });
+            </script>
+        }
+        else if (ViewBag.transaccionNueva == true && ViewBag.transaccionRealizada ==true )
+        {
+            <script>
+                swal({
+                    title: "Transacción Realzada",
+                    text: "Se pudo guardar la informacion",
+                    icon: "success"
+                });
+            </script>
+        }
+        <h1>DONACIONES</h1>
+        <section class="contenido">
+            <img src="~/css/images/no3.png" />
+            <table class="tablita">
+                <tr class="encabezado">
+                    <th>DOCUMENTO</th>
+                    <th>NOMBRE DONANTE</th>
+                    <th>FECHA DONACION</th>
+                    <th>PUESTO</th>
+                    <th></th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.DOCUMENTO_DONANTE)</td>
+                        <td>@Html.DisplayFor(modelItem => item.NOMBRE_DONANTE)</td>
+                        <td>@Html.DisplayFor(modelItem => item.FECHA_DONACION)</td>
+                        <td>@Html.DisplayFor(modelItem => item.NOMBRE_PUESTO)</td>
+                        <td><a asp-controller="Donar" asp-action="Detalle" asp-route-ID_DONACION="@item.ID_DONACION" class="caja-detalle"><button class="boton-detalle">DETALLE</button></a></td>
+                    </tr>
+                }
+            </table>
+        </section>
+        <div class="caja-boton">
+            <a class="enlace-a" asp-controller="Donar" asp-action="Index"><button>AÑADIR</button></a>
+        </div>
+    </main>
+</body>

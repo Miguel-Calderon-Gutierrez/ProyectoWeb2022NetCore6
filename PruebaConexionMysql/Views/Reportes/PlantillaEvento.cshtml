@@ -1,0 +1,61 @@
+﻿@model LogicaNegocio.Models.ReporteModel
+
+@{
+    List<LogicaNegocio.Models.EventoModel> eventos = Model.data5;
+}
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/FechaDonacion.css" />
+    <title>Donaciones</title>
+</head>
+<body>
+    <section class="encabezado2">
+        <center>
+            <table class="tabla">
+                <tr class="cabezas3">
+                    <td class="cabeza-imagen" rowspan="3"><img src="/css/images/fundacion (1).png" class="imagen6" /></td>
+                    <td class="cabeza-titulo" colspan="6"><h1 class="titulo">REPORTE DONACIONES POR FECHA</h1></td>
+                </tr>
+                <tr class="cabezas2">
+                    <td class="espacio1">USUARIO</td>
+                    <td class="espacio1">FECHA EMISION</td>
+                    <td class="espacio1">HORA EMISION</td>
+                    <td class="espacio1">TIPO</td>
+                    <td class="espacio3">ESTADO</td>
+                </tr>
+                <tr class="cabezas2">
+                    <td class="espacio2">@Model.usuario</td>
+                    <td class="espacio2">@Model.fecha</td>
+                    <td class="espacio2">@Model.hora</td>
+                    <td class="espacio2">@Model.Fecha_ini</td>
+                    <td class="espacio4">@Model.Fecha_fin</td>
+                </tr>
+                <tr>
+                    <td class="espacio7" colspan="6">INFORMACION EVENTOS</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="espacio5">NOMBRE</td>
+                    <td colspan="2" class="espacio5">FECHA INICIO</td>
+                    <td colspan="2" class="espacio6">FECHA FIN</td>
+                </tr>
+                @foreach(var item in Model.data5){
+                        <tr>
+                                <td colspan="2" class="espacio5">@item.NOMBRE_EVENTO</td>
+                                <td colspan="2" class="espacio5">@item.FECHA_INICIO</td>
+                                <td colspan="2" class="espacio6">@item.FEHCA_FIN</td>
+                        </tr>
+                }
+            </table>
+        </center>
+    </section>
+</body>
+</html>

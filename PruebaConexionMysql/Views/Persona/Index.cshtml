@@ -1,0 +1,82 @@
+﻿@model IEnumerable<LogicaNegocio.Models.PersonaModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Personas.css" />
+    <title>PERSONAS</title>
+</head>
+<main class="contenido">
+    <h1>TODAS LAS PERSONAS</h1>
+
+        <div class="container-imagen">
+            <img class="imagen" src="/css/images/personas.png"/>
+        </div>        
+        <div class="caja-tabla">
+        <table class="tablita">
+            <tr class="encabezado">
+                <th>
+                    @Html.DisplayNameFor(model => model.nombre1)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nombre2)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.apellido1)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.apellido2)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.telefono)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.correo)
+                </th>
+                <th></th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.nombre1)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.nombre2)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.apellido1)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.apellido2)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.telefono)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.correo)
+                    </td>
+                    <td class="botonesOpciones">
+                        <a class="cajaEditar" asp-action="Actualizar" asp-controller="Persona" asp-route-correo="@item.correo"> <button class="botonEditar"> Editar </button></a>
+                    </td>
+                    <td class="botonesOpciones">
+                        <a class="cajaEliminar" asp-action="Eliminar" asp-controller="Persona" asp-route-correo="@item.correo"> <button class="botonEliminar"> Eliminar </button></a>
+                    </td>
+                </tr>
+            }
+        </table>
+        </div>
+
+        <footer class="fin">
+            <a class="cajaAnadir" asp-action="Guardar"><button class="botonAnadir">AÑADIR</button></a>
+        </footer>
+</main>

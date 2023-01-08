@@ -1,0 +1,38 @@
+﻿@model LogicaNegocio.Models.FundacionModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="/css/agregarevento.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/css/Fundacion.css"/>
+    <title>Informacion Fundacion</title>
+</head>
+
+<body>
+    <main>
+        <h1>ACTUALIZAR INFORMACION FUNDACION</h1>
+        <section class="contenido">
+            <form asp-controller="Fundacion" asp-action="Actualizar" method="post" class="izquierda3" id="formulario">
+                <span class="span2">Nombre Fundacion</span>
+                <input asp-for="NOMBRE_FUNDACION" type="text" required placeholder="Fundacion Jh" class="input4"/>
+                <span class="span2">Ubicacion Fundacion</span>
+                <textarea asp-for="UBICACION" type="text" class="area2"></textarea>
+                <span class="span2">Informacion Fundacion</span>
+                <textarea asp-for="INFORMACION_FUNDACION" type="text" required class="area1"></textarea>
+            </form>
+            <div class="derecha3">
+                <img class="imagen5" src="/css/images/fundacion.jpg"/>
+            </div>
+        </section>
+        <div class="caja-boton">
+            <button class="boto9" form="formulario">ACTUALIZAR</button>
+        </div>
+    </main>
+</body>
+</html>
+

@@ -1,0 +1,207 @@
+﻿
+
+@{
+    List<LogicaNegocio.Models.PuestoDonarModel> puestos1 = ViewBag.Puestos;
+    List<LogicaNegocio.Models.TipoDonarModel> tipos1 = ViewBag.Tipos;
+}
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir Beneficiario</title>
+    <link rel="stylesheet" href="/css/beneficiario.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1>AÑADIR BENEFICIARIO</h1>
+        <div class="contenido">
+            <form  class="izquierda" id="formulario2">
+                <div class="fila1">                    
+                    <div class="cajas2">
+                        <span>Documento Identidad</span>
+                        <input type="number" class="input1" required id="documento" />
+                    </div>
+                    <div class="cajas2">
+                        <span>Nombre Beneficiario</span>
+                        <input  type="text" required class="input1" id="NOMBRE_BENEFICIARIO">
+                    </div>
+                    <div class="cajas2">
+                        <span>Fecha entrega</span>
+                        <input id="fecha"  type="date" required class="input3">
+                    </div>
+                    <div class="cajas2">
+                        <span>Puesto Entregado</span>
+                        <select class="select1" id="puesto">
+                            @foreach (var item in puestos1)
+                            {
+                                <option value="@item.ID_PUESTO_DONACION">@item.NOMBRE_PUESTO</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+                <div class="fila2">
+                <div class="caja3">
+                     <span>Cantidad entregada</span>
+                    <input id="cantidad" type="number" class="input2">
+                </div>
+                 <div class="caja3">
+                        <span>Tipo Producto Entregado</span>
+                        <input id="tipo" list="listapesos" class="input6" />
+                        <datalist id="listapesos" class="input6">
+                            @foreach (var item1 in tipos1)
+                            {
+                                <option>@item1.NOMBRE_TIPO_DONACION - @item1.UNIDAD_DE_MEDIDA</option>
+                            }
+                        </datalist>
+                 </div>
+                    <button asp-controller="Beneficiario" asp-action="Inicio" type="button" class="boton-donacion" id="agregar">AGREGAR PRODUCTO</button>
+                </div>
+            </form>
+        </div>
+        <footer class="foot">
+                <table id="lista" class="tablita">
+                    <tr class="encabezado">
+                        <th>CANTIDAD</th>
+                        <th>TIPO DONACION</th>
+                        <th></th>
+                    </tr>
+                </table>
+        </footer>
+        <div class="caja-boton-3">
+            <button id="guardar" form="formulario2" class="boton">DONAR</button>
+        </div>
+    </main>
+</body>
+
+<script>
+        var agregar = document.getElementById("agregar");
+        var guardarb = document.getElementById("guardar");
+        var lista = document.getElementById("lista");
+        var data = [];
+        var cant = 0;
+        agregar.addEventListener("click", agregarD);
+        guardarb.addEventListener("click", save);
+
+        function agregarD() {
+            var cantidad = parseInt(document.getElementById("cantidad").value);
+            var fecha = document.getElementById("fecha").value;
+            var tipo_donacion = document.getElementById("tipo").value;
+            var donante = document.getElementById("NOMBRE_BENEFICIARIO").value;            
+            var puesto = document.getElementById("puesto").value;
+            var documento=document.getElementById("documento").value;
+            data.push({
+                "id": cant,
+                "cantidad": cantidad,
+                "tipo": tipo_donacion,
+                "fecha": fecha,
+                "donante": donante,
+                "puesto" : puesto,
+                "documento":documento
+            });
+
+            var id_row = "row" + cant;
+            var fila = '<tr id=' + id_row + '><td>' + cantidad + '</td>' + '<td>' + tipo_donacion + '</td><td><button type="button" class="eliminar-botoncito2" onclick="eliminar(' + cant + ')";>Eliminar</button></td></tr>';
+
+            $("#lista").append(fila);
+            $("#cantidad").val('');
+            $("#tipo").val('');
+            cant++;
+        }
+
+        function eliminar(row) {
+            //remover la fila de la tabla
+            $("#row" + row).remove();
+            var i = 0;
+            var pos = 0;
+            for (x of data) {
+                if (x.id = row) {
+                    pos = i;
+                }
+                i++;
+            }
+
+            data.splice(pos, 1);
+        }
+
+        //En proceso
+        function save() {
+            var json = JSON.stringify(data);
+            console.log(json);
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("registrarBeneficio","Beneficiario")",
+                data: "json=" + json,
+                succes: function () {
+                    location.reload();
+                }
+            })
+        }
+</script>
+
+<script>
+ $(document).ready(function() { 
+    $("#documento").change(function() {
+       if ($("#documento").val().length >=5) {
+        llenarNombre()
+        }
+    });    
+ });
+
+
+function llenarNombre(){
+
+    var url = "@Url.Action("llenarNombre","Beneficiario")";
+    var documentoval = $("#documento").val();
+    var data = {
+        documento: documentoval
+    }; 
+
+    $.post(url, data).done(function(data) { 
+        $("#NOMBRE_BENEFICIARIO").val(data);
+        if (data != "") {
+            swal({
+                title: "Beneficiario antiguo encontrado!",
+                text: "El documento ingresado pertenece a " + data,
+                icon: "success",
+                button: "Ok!",
+            });
+        } else {
+            swal({
+                title: "Beneficiario nuevo!",
+                text: "El documento ingresado no pertenece a ningun beneficiario registrado,por favor ingresa el nombre",
+                icon: "info",
+                button: "Ok!",
+            });
+        }
+    })
+
+  
+}
+
+</script>
+
+<script>
+ window.onload = function(){
+  var fecha = new Date(); //Fecha actual
+  var mes = fecha.getMonth()+1; //obteniendo mes
+  var dia = fecha.getDate(); //obteniendo dia
+  var ano = fecha.getFullYear(); //obteniendo año
+  if(dia<10)
+    dia='0'+dia; //agrega cero si el menor de 10
+  if(mes<10)
+    mes='0'+mes //agrega cero si el menor de 10
+  document.getElementById('fecha').value=ano+"-"+mes+"-"+dia;
+}
+</script>
+
+</html>
+

@@ -1,0 +1,56 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Index</title>
+    <style>
+        .cajaEditar {
+            width: 30px;
+            height: max-content;
+        }
+
+        .botonEditar {
+            font-size: 1rem;
+            cursor: pointer;
+            color: green;
+            border: 1px solid #000;
+            border-radius: 8px;
+            height: auto;
+            padding: 3px;
+            width: 100px;
+            background-color: white;
+        }
+
+        .sub-titulo {
+            display: inline-block;
+            margin-left:10px;
+        }
+        .imagen{
+            width:30%;
+            height:auto;
+            margin:20px;
+        }
+        h1{
+            margin-bottom:15px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>REPORTES</h1>
+    <div>
+        <center>
+            <img class="imagen" src="~/css/images/Reportes.png" />
+        </center>        
+    </div>
+    <div>
+        <h2 class="sub-titulo">&#128462 Generar reportes por fecha:</h2>
+        <a asp-action="Fecha" asp-controller="Reportes" class="cajaEditar"> <button class="botonEditar"> Acceder </button></a>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,207 @@
+﻿
+
+@{
+    List<LogicaNegocio.Models.PuestoDonarModel> puestos1 = ViewBag.Puestos;
+    List<LogicaNegocio.Models.TipoDonarModel> tipos1 = ViewBag.Tipos;
+}
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="/css/Donar.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Agregar Donacion</title>
+</head>
+<body>
+    <main>
+        <h1>AÑADIR DONACION</h1>
+        <section class="contenido-main">
+            <form class="izquierda" id="formularito">
+                <div class="fila1">                    
+                    <div class="cajas2">
+                        <span>Documento Identidad</span>
+                        <input type="number" class="input1" required id="documento" />
+                    </div>
+                    <div class="cajas2">
+                        <span>Nombre Donante</span>
+                        <input type="text" class="input1" id="nombre_donante" />
+                    </div>
+                    <div class="cajas2">
+                        <span>Fecha Donacion</span>
+                        <input id="fecha" type="date" class="input3" />
+                    </div>
+                    <div class="cajas2">
+                        <span>Puesto Donacion</span>
+                        <select class="select1" id="puesto">
+                            @foreach (var item in puestos1)
+                            {
+                                <option value="@item.ID_PUESTO_DONACION">@item.NOMBRE_PUESTO</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+                <div class="fila2">
+                    <div class="caja3">
+                        <span>Cantidad Donacion</span>
+                        <input id="cantidad"  type="number" class="input2" />
+                    </div>
+                    <div class="caja3">
+                        <span>Tipo Donacion</span>
+                        <select id="tipo"  class="select1">
+                            @foreach (var item1 in tipos1)
+                            {
+                                <option>@item1.NOMBRE_TIPO_DONACION - @item1.UNIDAD_DE_MEDIDA</option>
+                            }
+                        </select>
+                    </div>
+                    <button type="button" class="boton3" id="agregar">AGREGAR PRODUCTO</button>
+                </div>
+            </form>
+        </section>
+        <div class="derecha">
+            <table id="lista" class="tablita">
+                <tr class="encabezado">
+                    <th>CANTIDAD</th>
+                    <th>TIPO DONACION</th>
+                    <th></th>
+                </tr>
+            </table>
+        </div>
+        <footer class="final">
+            <button id="guardar" asp-controller="Donar" asp-action="Inicio" form="formularito" type="submit" class="botoncito">DONAR</button>
+        </footer>
+    </main>
+</body>
+
+<script>
+
+    var agregar = document.getElementById("agregar");
+    var guardarb = document.getElementById("guardar");
+    var lista = document.getElementById("lista");
+    var data = [];
+    var cant = 0;
+    agregar.addEventListener("click", agregarD);
+    guardarb.addEventListener("click", save);
+
+    function agregarD() {
+        var cantidad = parseInt(document.getElementById("cantidad").value);
+        var fecha = document.getElementById("fecha").value;
+        var tipo_donacion = document.getElementById("tipo").value;
+        var donante = document.getElementById("nombre_donante").value;
+        var puesto = document.getElementById("puesto").value;
+        var documento = document.getElementById("documento").value;
+        data.push({
+            "id": cant,
+            "cantidad": cantidad,
+            "tipo": tipo_donacion,
+            "fecha": fecha,
+            "donante": donante,
+            "puesto": puesto,
+            "documento": documento
+        });
+
+        var id_row = "row" + cant;
+        var fila = '<tr id=' + id_row + '><td>' + cantidad + '</td>' + '<td>' + tipo_donacion + '</td><td><button type="button" class="eliminar-botoncito2" onclick="eliminar(' + cant + ')";>Eliminar</button></td></tr>';
+
+        $("#lista").append(fila);
+        $("#cantidad").val('');
+        $("#tipo").val('');
+        cant++;
+    }
+
+    function eliminar(row) {
+        //remover la fila de la tabla
+        $("#row" + row).remove();
+        var i = 0;
+        var pos = 0;
+        for (x of data) {
+            if (x.id = row) {
+                pos = i;
+            }
+            i++;
+        }
+
+        data.splice(pos, 1);
+    }
+
+    //En proceso
+    function save() {
+        var json = JSON.stringify(data);
+        console.log(json);
+        $.ajax({
+            type: "POST",
+            url: "@Url.Action("registrarDonacion","Donar")",
+            data: "json=" + json,
+            succes: function () {
+            }
+        })
+    }
+
+</script>
+
+<script>
+ $(document).ready(function() { 
+    $("#documento").change(function() {
+        if ($("#documento").val().length >=5) {
+        llenarNombre()
+        }
+    });    
+ });
+
+
+function llenarNombre(){
+
+    var url = "@Url.Action("llenarNombre","Donar")";
+    var documentoval = $("#documento").val();
+    var data = {
+        documento: documentoval
+    }; 
+
+    $.post(url, data).done(function(data) { 
+        $("#nombre_donante").val(data);
+        if (data != "" && data !="Anonimo") {
+            swal({
+                title: "Donante antiguo encontrado!",
+                text: "El documento ingresado pertenece a " + data,
+                icon: "success",
+                button: "Seguir donando!",
+            });
+        } else if( data =="") {
+            swal({
+                title: "Donante nuevo!",
+                text: "El documento ingresado no pertenece a ningun donante registrado,por favor ingresa el nombre",
+                icon: "info",
+                button: "Seguir donando!",
+            });
+        }
+    })
+
+  
+}
+</script>
+
+<script>
+     window.onload = function(){
+      var fecha = new Date(); //Fecha actual
+      var mes = fecha.getMonth()+1; //obteniendo mes
+      var dia = fecha.getDate(); //obteniendo dia
+      var ano = fecha.getFullYear(); //obteniendo año
+      if(dia<10)
+        dia='0'+dia; //agrega cero si el menor de 10
+      if(mes<10)
+        mes='0'+mes //agrega cero si el menor de 10
+      document.getElementById('fecha').value=ano+"-"+mes+"-"+dia;
+    }
+</script>
+
+</html>
+
+
