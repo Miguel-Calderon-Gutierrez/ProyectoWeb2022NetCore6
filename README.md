@@ -29,8 +29,9 @@ Tecnologías utilizadas
 	HTML 5
 	CSS
 Autores
-1.	Alejandro Toledo(GitHub)
-2.	Miguel Calderón (GitHub)
+1.	Alejandro Toledo(https://github.com/Deathlezz300)
+2.	Miguel Calderón (https://github.com/Miguel-Calderon-Gutierrez)
+
 Licencia
- 	Licencia Pública General GNU (Más información)
+-Licencia Pública General GNU (Más información)
   
