@@ -1,6 +1,8 @@
 README FUNDACIÓN UNIVERSIDAD
+
 Este proyecto es una aplicación web hecha para una fundación, permite realizar de manera eficiente y efectiva la recolección y entrega de donaciones. Se hizo con el fin de sistematizar procesos que antes se llevaban de forma manual. En este proyecto se trabaja con diferentes roles, dando acceso a diferentes opciones que posibilitan un manejo de la información de manera segura.
 Instalación
+
 1.	Utilice visual Visual Studio 2022 para poder ejecutar el proyecto: Descargar
 
 2.	Instale MySQL Community Server 8.0.31: Descargar 
@@ -16,6 +18,7 @@ Instalación
 https://localhost:7198/
  
 Funcionalidades del proyecto
+
 •	Permite la gestión de funcionarios que tiene acceso a la aplicación web
 •	Permite la gestión de donaciones tanto para entrega como para recolección 
 •	Permite la gestión de eventos
@@ -23,15 +26,19 @@ Funcionalidades del proyecto
 •	Cuenta con la opción de generar diversos reportes
 
 Tecnologías utilizadas
-	.Net core 6
-	MySQL
-	JavaScript
-	HTML 5
-	CSS
+
+-	.Net core 6
+-	MySQL
+-	JavaScript
+-	HTML 5
+-	CSS
+
 Autores
+
 1.	Alejandro Toledo(https://github.com/Deathlezz300)
 2.	Miguel Calderón (https://github.com/Miguel-Calderon-Gutierrez)
 
 Licencia
+
 -Licencia Pública General GNU (Más información)
   
