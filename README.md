@@ -1,44 +1,60 @@
-README FUNDACIÓN UNIVERSIDAD
+# README Fundación Universidad
 
-Este proyecto es una aplicación web hecha para una fundación, permite realizar de manera eficiente y efectiva la recolección y entrega de donaciones. Se hizo con el fin de sistematizar procesos que antes se llevaban de forma manual. En este proyecto se trabaja con diferentes roles, dando acceso a diferentes opciones que posibilitan un manejo de la información de manera segura.
-Instalación
+¡Bienvenido(a) a la aplicación web de la **Fundación Universidad**!  
+Este proyecto ha sido creado con el objetivo de **facilitar** y **sistematizar** la recolección y entrega de donaciones, ofreciendo un entorno seguro y eficiente para la gestión de la información.  
 
-1.	Utilice visual Visual Studio 2022 para poder ejecutar el proyecto
+---
+## ✨ Características principales
+- Múltiples **roles** con acceso a distintas opciones de la aplicación para un manejo seguro de la información.  
+- Procesos de recolección y entrega de donaciones **automatizados**.  
+- **Sistematización** de tareas que antes se realizaban de forma manual.  
 
-2.	Instale MySQL Community Server 8.0.31
- 
-3.	Descargue el proyecto comprimido en .zip
+---
+## ⚙️ Instalación y requisitos previos
+1. **Visual Studio 2022**  
+   > Asegúrate de contar con la versión de Visual Studio 2022 para poder abrir y ejecutar este proyecto.
 
-4.	Descomprima él .zip y abra la solución desde visual studio 2022
+2. **MySQL Community Server 8.0.31**  
+   > Es necesario tener instalado y configurado MySQL para la base de datos.
 
-5.	Ejecute el proyecto
+3. **Descarga del proyecto**  
+   - Descarga el archivo `.zip` con todo el proyecto.
+   - Descomprímelo en tu ubicación preferida.
 
-6.	Observe el proyecto en ejecución en la dirección:
+4. **Apertura y ejecución**  
+   - Abre la solución (`.sln`) desde Visual Studio 2022.  
+   - Ejecuta el proyecto.  
+   - Observa el funcionamiento en tu navegador en la dirección:  
+     **[https://localhost:7198/](https://localhost:7198/)**
 
-https://localhost:7198/
- 
-Funcionalidades del proyecto
+---
+## ⚡ Funcionalidades del proyecto
+- **Gestión de funcionarios**: administra las cuentas de usuarios con acceso a la aplicación web.  
+- **Gestión de donaciones**: tanto para **entrega** como para **recolección**.  
+- **Gestión de eventos**: crea, edita y organiza eventos de la fundación.  
+- **Gestión de inventario**: administra los recursos disponibles para la fundación.  
+- **Generación de reportes**: obtén reportes detallados de los diferentes procesos.
 
-•	Permite la gestión de funcionarios que tiene acceso a la aplicación web
-•	Permite la gestión de donaciones tanto para entrega como para recolección 
-•	Permite la gestión de eventos
-•	Permite la gestión de inventario
-•	Cuenta con la opción de generar diversos reportes
+---
+## 🔧 Tecnologías utilizadas
+- **.NET Core 6**  
+- **MySQL**  
+- **JavaScript**  
+- **HTML 5**  
+- **CSS**
 
-Tecnologías utilizadas
+---
+## 👥 Autores
+- **Alejandro Toledo**  
+  [GitHub: @Deathlezz300](https://github.com/Deathlezz300)  
+- **Miguel Calderón**  
+  [GitHub: @Miguel-Calderon-Gutierrez](https://github.com/Miguel-Calderon-Gutierrez)
 
--	.Net core 6
--	MySQL
--	JavaScript
--	HTML 5
--	CSS
+---
+## ⚖️ Licencia
+**Licencia Pública General GNU**  
+Para más información, consulta: [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.es.html)
 
-Autores
-
-1.	Alejandro Toledo(https://github.com/Deathlezz300)
-2.	Miguel Calderón (https://github.com/Miguel-Calderon-Gutierrez)
-
-Licencia
-
--Licencia Pública General GNU (Más información)
+---
+¡Gracias por visitar el repositorio! Si tienes dudas o sugerencias, no dudes en crear un **issue** o enviar un **pull request**. ✨  
   
